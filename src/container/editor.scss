@@ -1,0 +1,63 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .container,
+ .container-lg,
+ .container-md {
+   width: 100%;
+   padding-right: var(--bs-gutter-x, 0.75rem);
+   padding-left: var(--bs-gutter-x, 0.75rem);
+   margin-right: auto;
+   margin-left: auto;
+ }
+
+ @media (min-width: 768px) {
+   .container-md, .container {
+     max-width: 720px;
+   }
+ }
+
+ @media (min-width: 992px) {
+   .container-lg, .container-md, .container {
+     max-width: 960px;
+   }
+ }
+
+ @import url('../../assets/bootstrap/dist/css/xs/xs-padding-bottom.min.css');
+ @import url('../../assets/bootstrap/dist/css/xs/xs-padding-left.min.css');
+ @import url('../../assets/bootstrap/dist/css/xs/xs-padding-right.min.css');
+ @import url('../../assets/bootstrap/dist/css/xs/xs-padding-top.min.css');
+ @import url('../../assets/bootstrap/dist/css/xs/xs-margin-bottom.min.css');
+ @import url('../../assets/bootstrap/dist/css/xs/xs-margin-top.min.css');
+ @import url('../../assets/bootstrap/dist/css/xs/xs-margin-left.min.css');
+ @import url('../../assets/bootstrap/dist/css/xs/xs-margin-right.min.css');
+ @import url('../../assets/bootstrap/dist/css/xs/xs-display.min.css');
+
+ @import url('../../assets/bootstrap/dist/css/md/md-padding-bottom.min.css');
+ @import url('../../assets/bootstrap/dist/css/md/md-padding-left.min.css');
+ @import url('../../assets/bootstrap/dist/css/md/md-padding-right.min.css');
+ @import url('../../assets/bootstrap/dist/css/md/md-padding-top.min.css');
+ @import url('../../assets/bootstrap/dist/css/md/md-margin-bottom.min.css');
+ @import url('../../assets/bootstrap/dist/css/md/md-margin-top.min.css');
+ @import url('../../assets/bootstrap/dist/css/md/md-margin-left.min.css');
+ @import url('../../assets/bootstrap/dist/css/md/md-margin-right.min.css');
+ @import url('../../assets/bootstrap/dist/css/md/md-display.min.css');
+
+ @import url('../../assets/bootstrap/dist/css/lg/lg-padding-bottom.min.css');
+ @import url('../../assets/bootstrap/dist/css/lg/lg-padding-left.min.css');
+ @import url('../../assets/bootstrap/dist/css/lg/lg-padding-right.min.css');
+ @import url('../../assets/bootstrap/dist/css/lg/lg-padding-top.min.css');
+ @import url('../../assets/bootstrap/dist/css/lg/lg-margin-bottom.min.css');
+ @import url('../../assets/bootstrap/dist/css/lg/lg-margin-top.min.css');
+ @import url('../../assets/bootstrap/dist/css/lg/lg-margin-left.min.css');
+ @import url('../../assets/bootstrap/dist/css/lg/lg-margin-right.min.css');
+ @import url('../../assets/bootstrap/dist/css/lg/lg-display.min.css');
+
+
+.wp-block-bootstrap-blocks-container {
+	border: 1px dotted #42a5f5;
+  padding: 10px;
+}

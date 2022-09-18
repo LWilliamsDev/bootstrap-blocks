@@ -1,0 +1,47 @@
+@media (min-width: 1400px) {
+  .flex-basis-xxl-auto {
+    flex-basis: auto !important;
+  }
+
+  .flex-basis-xxl-0 {
+    flex-basis: 0 !important;
+  }
+
+  .mb-xxl-0 {
+    margin-bottom: 0 !important;
+  }
+
+  .mb-xxl-1 {
+    margin-bottom: 0.25rem !important;
+  }
+
+  .mb-xxl-2 {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .mb-xxl-3 {
+    margin-bottom: 1rem !important;
+  }
+
+  .mb-xxl-4 {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .mb-xxl-5 {
+    margin-bottom: 3rem !important;
+  }
+
+  .mb-xxl-6 {
+    margin-bottom: 4rem !important;
+  }
+
+  .mb-xxl-7 {
+    margin-bottom: 5rem !important;
+  }
+
+  .mb-xxl-auto {
+    margin-bottom: auto !important;
+  }
+}
+
+/*# sourceMappingURL=xxl-margin-bottom.css.map */

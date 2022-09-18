@@ -1,0 +1,23 @@
+@media (min-width: 1400px) {
+  .d-xxl-inline {
+    display: inline !important;
+  }
+
+  .d-xxl-inline-block {
+    display: inline-block !important;
+  }
+
+  .d-xxl-block {
+    display: block !important;
+  }
+
+  .d-xxl-grid {
+    display: grid !important;
+  }
+
+  .d-xxl-none {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=xxl-display.css.map */

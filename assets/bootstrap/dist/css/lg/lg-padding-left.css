@@ -1,0 +1,43 @@
+@media (min-width: 992px) {
+  .flex-basis-lg-auto {
+    flex-basis: auto !important;
+  }
+
+  .flex-basis-lg-0 {
+    flex-basis: 0 !important;
+  }
+
+  .ps-lg-0 {
+    padding-left: 0 !important;
+  }
+
+  .ps-lg-1 {
+    padding-left: 0.25rem !important;
+  }
+
+  .ps-lg-2 {
+    padding-left: 0.5rem !important;
+  }
+
+  .ps-lg-3 {
+    padding-left: 1rem !important;
+  }
+
+  .ps-lg-4 {
+    padding-left: 1.5rem !important;
+  }
+
+  .ps-lg-5 {
+    padding-left: 3rem !important;
+  }
+
+  .ps-lg-6 {
+    padding-left: 4rem !important;
+  }
+
+  .ps-lg-7 {
+    padding-left: 5rem !important;
+  }
+}
+
+/*# sourceMappingURL=lg-padding-left.css.map */

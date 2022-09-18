@@ -1,0 +1,47 @@
+@media (min-width: 1400px) {
+  .flex-basis-xxl-auto {
+    flex-basis: auto !important;
+  }
+
+  .flex-basis-xxl-0 {
+    flex-basis: 0 !important;
+  }
+
+  .ms-xxl-0 {
+    margin-left: 0 !important;
+  }
+
+  .ms-xxl-1 {
+    margin-left: 0.25rem !important;
+  }
+
+  .ms-xxl-2 {
+    margin-left: 0.5rem !important;
+  }
+
+  .ms-xxl-3 {
+    margin-left: 1rem !important;
+  }
+
+  .ms-xxl-4 {
+    margin-left: 1.5rem !important;
+  }
+
+  .ms-xxl-5 {
+    margin-left: 3rem !important;
+  }
+
+  .ms-xxl-6 {
+    margin-left: 4rem !important;
+  }
+
+  .ms-xxl-7 {
+    margin-left: 5rem !important;
+  }
+
+  .ms-xxl-auto {
+    margin-left: auto !important;
+  }
+}
+
+/*# sourceMappingURL=xxl-margin-left.css.map */

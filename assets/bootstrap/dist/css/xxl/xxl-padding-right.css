@@ -1,0 +1,43 @@
+@media (min-width: 1400px) {
+  .flex-basis-xxl-auto {
+    flex-basis: auto !important;
+  }
+
+  .flex-basis-xxl-0 {
+    flex-basis: 0 !important;
+  }
+
+  .pe-xxl-0 {
+    padding-right: 0 !important;
+  }
+
+  .pe-xxl-1 {
+    padding-right: 0.25rem !important;
+  }
+
+  .pe-xxl-2 {
+    padding-right: 0.5rem !important;
+  }
+
+  .pe-xxl-3 {
+    padding-right: 1rem !important;
+  }
+
+  .pe-xxl-4 {
+    padding-right: 1.5rem !important;
+  }
+
+  .pe-xxl-5 {
+    padding-right: 3rem !important;
+  }
+
+  .pe-xxl-6 {
+    padding-right: 4rem !important;
+  }
+
+  .pe-xxl-7 {
+    padding-right: 5rem !important;
+  }
+}
+
+/*# sourceMappingURL=xxl-padding-right.css.map */

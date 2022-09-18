@@ -1,0 +1,27 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+ @import url('../../assets/bootstrap/dist/css/row.min.css');
+ @import url('../../assets/bootstrap/dist/css/xs/xs-gutters.min.css');
+ @import url('../../assets/bootstrap/dist/css/md/md-gutters.min.css');
+ @import url('../../assets/bootstrap/dist/css/lg/lg-gutters.min.css');
+ @import url('../../assets/bootstrap/dist/css/xs/xs-justify-content.min.css');
+ @import url('../../assets/bootstrap/dist/css/md/md-justify-content.min.css');
+ @import url('../../assets/bootstrap/dist/css/lg/lg-justify-content.min.css');
+ @import url('../../assets/bootstrap/dist/css/xs/xs-align-items.min.css');
+ @import url('../../assets/bootstrap/dist/css/md/md-align-items.min.css');
+ @import url('../../assets/bootstrap/dist/css/lg/lg-align-items.min.css');
+ @import url('../../assets/bootstrap/dist/css/xs/xs-wrap.min.css');
+ @import url('../../assets/bootstrap/dist/css/md/md-wrap.min.css');
+ @import url('../../assets/bootstrap/dist/css/lg/lg-wrap.min.css');
+ @import url('../../assets/bootstrap/dist/css/xs/xs-align-content.min.css');
+ @import url('../../assets/bootstrap/dist/css/md/md-align-content.min.css');
+ @import url('../../assets/bootstrap/dist/css/lg/lg-align-content.min.css');
+
+
+.wp-block-bootstrap-blocks-row {
+	border: 1px dotted #f00;
+  padding: 1%;
+}

@@ -1,0 +1,43 @@
+@media (min-width: 992px) {
+  .flex-basis-lg-auto {
+    flex-basis: auto !important;
+  }
+
+  .flex-basis-lg-0 {
+    flex-basis: 0 !important;
+  }
+
+  .pb-lg-0 {
+    padding-bottom: 0 !important;
+  }
+
+  .pb-lg-1 {
+    padding-bottom: 0.25rem !important;
+  }
+
+  .pb-lg-2 {
+    padding-bottom: 0.5rem !important;
+  }
+
+  .pb-lg-3 {
+    padding-bottom: 1rem !important;
+  }
+
+  .pb-lg-4 {
+    padding-bottom: 1.5rem !important;
+  }
+
+  .pb-lg-5 {
+    padding-bottom: 3rem !important;
+  }
+
+  .pb-lg-6 {
+    padding-bottom: 4rem !important;
+  }
+
+  .pb-lg-7 {
+    padding-bottom: 5rem !important;
+  }
+}
+
+/*# sourceMappingURL=lg-padding-bottom.css.map */

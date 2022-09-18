@@ -1,0 +1,43 @@
+@media (min-width: 1400px) {
+  .flex-basis-xxl-auto {
+    flex-basis: auto !important;
+  }
+
+  .flex-basis-xxl-0 {
+    flex-basis: 0 !important;
+  }
+
+  .pb-xxl-0 {
+    padding-bottom: 0 !important;
+  }
+
+  .pb-xxl-1 {
+    padding-bottom: 0.25rem !important;
+  }
+
+  .pb-xxl-2 {
+    padding-bottom: 0.5rem !important;
+  }
+
+  .pb-xxl-3 {
+    padding-bottom: 1rem !important;
+  }
+
+  .pb-xxl-4 {
+    padding-bottom: 1.5rem !important;
+  }
+
+  .pb-xxl-5 {
+    padding-bottom: 3rem !important;
+  }
+
+  .pb-xxl-6 {
+    padding-bottom: 4rem !important;
+  }
+
+  .pb-xxl-7 {
+    padding-bottom: 5rem !important;
+  }
+}
+
+/*# sourceMappingURL=xxl-padding-bottom.css.map */

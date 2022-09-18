@@ -1,0 +1,47 @@
+@media (min-width: 768px) {
+  .flex-basis-md-auto {
+    flex-basis: auto !important;
+  }
+
+  .flex-basis-md-0 {
+    flex-basis: 0 !important;
+  }
+
+  .ms-md-0 {
+    margin-left: 0 !important;
+  }
+
+  .ms-md-1 {
+    margin-left: 0.25rem !important;
+  }
+
+  .ms-md-2 {
+    margin-left: 0.5rem !important;
+  }
+
+  .ms-md-3 {
+    margin-left: 1rem !important;
+  }
+
+  .ms-md-4 {
+    margin-left: 1.5rem !important;
+  }
+
+  .ms-md-5 {
+    margin-left: 3rem !important;
+  }
+
+  .ms-md-6 {
+    margin-left: 4rem !important;
+  }
+
+  .ms-md-7 {
+    margin-left: 5rem !important;
+  }
+
+  .ms-md-auto {
+    margin-left: auto !important;
+  }
+}
+
+/*# sourceMappingURL=md-margin-left.css.map */

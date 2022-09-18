@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+  .d-md-inline {
+    display: inline !important;
+  }
+
+  .d-md-inline-block {
+    display: inline-block !important;
+  }
+
+  .d-md-block {
+    display: block !important;
+  }
+
+  .d-md-grid {
+    display: grid !important;
+  }
+
+  .d-md-none {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=md-display.css.map */

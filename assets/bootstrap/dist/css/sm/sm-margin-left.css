@@ -1,0 +1,47 @@
+@media (min-width: 576px) {
+  .flex-basis-sm-auto {
+    flex-basis: auto !important;
+  }
+
+  .flex-basis-sm-0 {
+    flex-basis: 0 !important;
+  }
+
+  .ms-sm-0 {
+    margin-left: 0 !important;
+  }
+
+  .ms-sm-1 {
+    margin-left: 0.25rem !important;
+  }
+
+  .ms-sm-2 {
+    margin-left: 0.5rem !important;
+  }
+
+  .ms-sm-3 {
+    margin-left: 1rem !important;
+  }
+
+  .ms-sm-4 {
+    margin-left: 1.5rem !important;
+  }
+
+  .ms-sm-5 {
+    margin-left: 3rem !important;
+  }
+
+  .ms-sm-6 {
+    margin-left: 4rem !important;
+  }
+
+  .ms-sm-7 {
+    margin-left: 5rem !important;
+  }
+
+  .ms-sm-auto {
+    margin-left: auto !important;
+  }
+}
+
+/*# sourceMappingURL=sm-margin-left.css.map */

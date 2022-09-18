@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "bootstrap-blocks/collapse-button",
+	"version": "0.1.0",
+	"title": "Collapse Button",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Adds a button that opens a Collapse component",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "bootstrap-blocks",
+	"editorScript": "file:index.js",
+	"editorStyle": "file:index.css",
+	"style": "file:style-index.css"
+}

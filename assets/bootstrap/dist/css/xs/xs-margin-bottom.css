@@ -1,0 +1,45 @@
+.flex-basis-auto {
+  flex-basis: auto !important;
+}
+
+.flex-basis-0 {
+  flex-basis: 0 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 4rem !important;
+}
+
+.mb-7 {
+  margin-bottom: 5rem !important;
+}
+
+.mb-auto {
+  margin-bottom: auto !important;
+}
+
+/*# sourceMappingURL=xs-margin-bottom.css.map */

@@ -1,0 +1,14 @@
+@import "../functions";
+$grid-breakpoints: (
+  md: 768px
+);
+
+@import "../variables";
+@import "../mixins";
+@import "../mixins/custom";
+@import "../utilities";
+
+/*@if $enable-grid-classes {
+  @include make-grid-columns();
+}*/
+@include make-grid-columns2();

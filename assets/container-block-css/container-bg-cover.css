@@ -1,0 +1,12 @@
+.bg-img {
+  width: 100%;
+}
+.bg-img > * {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+}
+.bg-img > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

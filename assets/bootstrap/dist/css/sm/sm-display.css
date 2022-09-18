@@ -1,0 +1,23 @@
+@media (min-width: 576px) {
+  .d-sm-inline {
+    display: inline !important;
+  }
+
+  .d-sm-inline-block {
+    display: inline-block !important;
+  }
+
+  .d-sm-block {
+    display: block !important;
+  }
+
+  .d-sm-grid {
+    display: grid !important;
+  }
+
+  .d-sm-none {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=sm-display.css.map */

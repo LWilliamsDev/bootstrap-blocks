@@ -1,0 +1,12 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+[data-type='bootstrap-blocks/tabs-nav'] {
+	border: 1px dotted #26C6DA;
+	list-style-type: none;
+	padding: 10px;
+	display: flex;
+}

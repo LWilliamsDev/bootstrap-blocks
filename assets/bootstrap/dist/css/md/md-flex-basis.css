@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+  .flex-basis-md-auto {
+    flex-basis: auto !important;
+  }
+
+  .flex-basis-md-0 {
+    flex-basis: 0 !important;
+  }
+}
+
+/*# sourceMappingURL=md-flex-basis.css.map */
