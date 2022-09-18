@@ -10,10 +10,10 @@ These blocks are appropriate in situations where:
 * You need to take advantage of more Bootstrap utilities in order to have maximum flexibility in the layouts you can create.
 
 ## Core Web Vitals Optimization
-On the front end, these blocks generally load only styles/scripts that are being used. This is achieved by:
+On the front end, these blocks minimize the loading of unused Bootstrap styles. This is achieved by:
 
 * Using the Bootstrap 5 NPM package to break down Bootstrap into multiple stylesheets and/or scripts
-* Having a loading function that hook into wp_enqueue_scripts. The loading function detect block(s) on the page, block attribute values, and then loads the appropriate stylesheets/scripts based on either a) if a specific block is present (for components) or b) attribute values (for example, if a column block has an attribute for the LG columns, then load the LG columns stylesheet)
+* Having a loading function that hooks into wp_enqueue_scripts. The loading function detects block(s) on the page, block attribute values, and then loads the appropriate stylesheets/scripts based on either a) if a specific block is present (for Bootstrap components) or b) attribute values (for example, if a column block has an attribute for the LG columns, then load the LG columns stylesheet)
 
 ## Editor VS Front End Rendering
 This code provides an approximation of what the blocks look like in the Gutenberg Editor. Due to special styling considerations for the editor - many blocks have slightly different CSS rules than what is used on the front end. For the most accurate preview, you need to click the preview button, and select the option to preview in a new window.
