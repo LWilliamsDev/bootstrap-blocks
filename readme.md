@@ -19,11 +19,11 @@ On the front end, these blocks minimize the loading of unused Bootstrap styles. 
 This code provides an approximation of what the blocks look like in the Gutenberg Editor. Due to special styling considerations for the editor - many blocks have slightly different CSS rules than what is used on the front end. For the most accurate preview, you need to click the preview button, and select the option to preview in a new window.
 
 ## Why Dynamic Blocks? (PHP front end rendering)
-Why did I decide to use PHP for front end rendering, instead of the native JavaScript front end rendering?
+Why did I decide to use PHP for front end rendering, instead of the default front end rendering mechanism?
 
 Eventually, you need to upgrade Bootstrap. This involves changing the HTML markup of the blocks. To me, the easiest way to accomplish this is to a) update the HTML markup in the PHP front end rendering functions and b) use search/replace queries to update block attributes if necessary.
 
-Alternatively, you could update your code and then do database search/replace queries to update the saved HTML markup in the database. However, a) this method involves way more search/replace queries than the chosen method and b) due to the higher number and scope of the search/replace queries, I believe this method may be more prone to errors and/or unintended consequences.
+Alternatively, using the default front end rendering mechanism, you could update your code and then do database search/replace queries to update the saved HTML markup in the database. However, a) this method involves way more search/replace queries than the chosen method and b) due to the higher number and scope of the search/replace queries, I believe this method may be more prone to errors and/or unintended consequences.
 
 ## Organization
 This section outlines the general structure of the plugin.
