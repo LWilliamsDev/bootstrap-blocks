@@ -42,7 +42,7 @@ load_files(plugin_dir_path( __FILE__ ) . 'includes/front_end_render');
 function load_assets() { //this function handles loading of assets on the front end only
   register_scripts();
 	global $post;
-
+  wp_enqueue_style('bootstrap-box-sizing');
   //Load certain stylesheets if a specific block is used
   if ( has_block( 'bootstrap-blocks/row' ) ) {
 	   wp_enqueue_style('bootstrap-row');

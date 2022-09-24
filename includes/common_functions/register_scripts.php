@@ -1,4 +1,7 @@
 <?php function register_scripts() { //this function registers all scripts and styles. The global stylesheet (which contains some Bootstrap styles) is loaded from the theme's functions.php
+
+  wp_register_style('bootstrap-box-sizing', plugins_url('/assets/universal-box-sizing.min.css', dirname(__FILE__, 2)), '', '5.1.3', 'all');
+
   //First register all Bootstrap stylesheets, minus the global one that loads in the theme
   wp_register_style('bootstrap-row', plugins_url('/assets/bootstrap/dist/css/row.min.css', dirname(__FILE__, 2)), '', '5.1.3', 'all');
 
@@ -119,16 +122,16 @@
   wp_register_style('bootstrap-xxl-flex-basis', plugins_url('/assets/bootstrap/dist/css/xxl/xxl-flex-basis.min.css', dirname(__FILE__, 2)), '', '5.1.3', 'all');
 
   wp_register_style('bootstrap-tabs-css', plugins_url('/assets/bootstrap/dist/css/components/tabs.min.css', dirname(__FILE__, 2)), '', '5.1.3', 'all');
-  wp_register_script('bootstrap-tabs-js', plugins_url('/assets/bootstrap/dist/js/tab.min.js', dirname(__FILE__, 2)), '', '5.1.3', 'all');
+  wp_register_script('bootstrap-tabs-js', plugins_url('/assets/bootstrap/dist/js/tab.min.js', dirname(__FILE__, 2)), '', '5.1.3', true);
 
 
   wp_register_style('bootstrap-carousel-css', plugins_url('/assets/bootstrap/dist/css/components/carousel.min.css', dirname(__FILE__, 2)), '', '5.1.3', 'all');
-  wp_register_script('bootstrap-carousel-js', plugins_url('/assets/bootstrap/dist/js/carousel.min.js', dirname(__FILE__, 2)), '', '5.1.3', 'all');
+  wp_register_script('bootstrap-carousel-js', plugins_url('/assets/bootstrap/dist/js/carousel.min.js', dirname(__FILE__, 2)), '', '5.1.3', true);
 
   wp_register_style('bootstrap-collapse-css', plugins_url('/assets/bootstrap/dist/css/components/collapse.min.css', dirname(__FILE__, 2)), '', '5.1.3', 'all');
 
 
   wp_register_style('bootstrap-accordion', plugins_url('/assets/bootstrap/dist/css/accordions.min.css', dirname(__FILE__, 2)), '', '5.1.3', 'all');
-  wp_register_script('bootstrap-collapse', plugins_url('/assets/bootstrap/dist/js/collapse.min.js', dirname(__FILE__, 2)), '', '5.1.3', 'all');
+  wp_register_script('bootstrap-collapse', plugins_url('/assets/bootstrap/dist/js/collapse.min.js', dirname(__FILE__, 2)), '', '5.1.3', true);
 }
 ?>
