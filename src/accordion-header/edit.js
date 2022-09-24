@@ -12,7 +12,7 @@ import { __ } from '@wordpress/i18n';
  * @see https://developer.wordpress.org/block-editor/packages/packages-block-editor/#useBlockProps
  */
 import { useBlockProps, InspectorControls, RichText } from '@wordpress/block-editor';
-import { SelectControl, TextControl, Panel, PanelBody, PanelRow } from '@wordpress/components';
+import { Disabled, SelectControl, TextControl, Panel, PanelBody, PanelRow } from '@wordpress/components';
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
  * Those files can contain any CSS code that gets applied to the editor.
@@ -50,11 +50,13 @@ import './editor.scss';
      <div { ...blockProps }>
       <InspectorControls key="setting">
         <PanelBody title={__('Accordion Header Settings', 'bootstrap-blocks')}>
-          <TextControl
-           label={__('Target (ID of panel that this header opens)', 'bootstrap-blocks')}
-           value={ target }
-           onChange={  target  => setAttributes( {target} ) }
-           />
+          <Disabled>
+            <TextControl
+            label={__('Target (ID of panel that this header opens)', 'bootstrap-blocks')}
+            value={ target }
+            help={__('This value is set by the accordion content Anchor setting','bootstrap-bblocks')}
+            />
+          </Disabled>
            <SelectControl label={__('Heading Level', 'bootstrap-blocks')}
             value={level}
             options={[
