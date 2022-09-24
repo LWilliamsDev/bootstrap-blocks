@@ -117,12 +117,3 @@ function load_assets() { //this function handles loading of assets on the front 
 
 }
 add_action( 'wp_enqueue_scripts', 'load_assets' );
-
-function load_block_editor_assets() { //this function loads assets necessary for editing content in the block editor. Front end loading is handled via the load_assets function.
-	register_scripts();
-	if (has_block('bootstrap-blocks/qr')) { //the QR code block requires this script to be loaded.
-		wp_enqueue_script('qr-code');
-	}
-
-}
-add_action( 'enqueue_block_editor_assets', 'load_block_editor_assets');
