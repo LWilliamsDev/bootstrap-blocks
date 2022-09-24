@@ -36,5 +36,5 @@ This section outlines the general structure of the plugin.
 * **src:** contains all of the JS code for each individual block. Each subfolder represents 1 block. There are some JS files in the root of the src folder, and they represent functions that are used in multiple blocks.
 
 ## Packages Used
-* WordPress Create Block(https://www.npmjs.com/package/@wordpress/create-block)
-* Bootstrap(https://www.npmjs.com/package/bootstrap)
+* [WordPress Create Block](https://www.npmjs.com/package/@wordpress/create-block)
+* [Bootstrap](https://www.npmjs.com/package/bootstrap)
